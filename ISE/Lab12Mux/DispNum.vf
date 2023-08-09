@@ -1,0 +1,451 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : DispNum.vf
+// /___/   /\     Timestamp : 12/12/2021 15:44:05
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/49530/Desktop/ISE/Lab12/DispNum.vf -w C:/Users/49530/Desktop/ISE/Lab12/DispNum.sch
+//Design Name: DispNum
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module INV4_HXILINX_DispNum (O0, O1, O2, O3, I0, I1, I2, I3);
+    
+
+   output O0;
+   output O1;
+   output O2;
+   output O3;
+
+   input  I0;
+   input  I1;
+   input  I2;
+   input  I3;
+
+assign O0 = !I0;
+assign O1 = !I1;
+assign O2 = !I2;
+assign O3 = !I3;
+
+endmodule
+`timescale  100 ps / 10 ps
+
+module M4_1E_HXILINX_DispNum (O, D0, D1, D2, D3, E, S0, S1);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  D2;
+   input  D3;
+   input  E;
+   input  S0;
+   input  S1;
+
+   reg O;
+
+   always @ ( D0 or D1 or D2 or D3 or E or S0 or S1)
+   begin
+      if(!E)
+      O <= 1'b0;
+      else 
+      begin
+        case({S1,S0})
+        2'b00 : O <= D0;
+        2'b01 : O <= D1;
+        2'b10 : O <= D2;
+        2'b11 : O <= D3;
+        endcase
+      end
+   end
+    
+endmodule
+`timescale  100 ps / 10 ps
+
+module D2_4E_HXILINX_DispNum (D0, D1, D2, D3, A0, A1, E);
+    
+
+   output D0;
+   output D1;
+   output D2;
+   output D3;
+
+   input  A0;
+   input  A1;
+   input  E;
+  
+   reg D0;
+   reg D1;
+   reg D2;
+   reg D3;
+
+      always @ (A0 or A1 or E)
+      begin
+         if(!E)
+           {D3, D2, D1, D0} <= 4'b0000;
+        else
+        begin
+           case({A1,A0})
+             2'b00 : {D3,D2,D1,D0} <= 4'b0001;
+             2'b01 : {D3,D2,D1,D0} <= 4'b0010;
+             2'b10 : {D3,D2,D1,D0} <= 4'b0100;
+             2'b11 : {D3,D2,D1,D0} <= 4'b1000;
+          endcase
+        end
+     end 
+
+endmodule
+`timescale 1ns / 1ps
+
+module MyMC14495_MUSER_DispNum(D0, 
+                               D1, 
+                               D2, 
+                               D3, 
+                               LE, 
+                               point, 
+                               a, 
+                               b, 
+                               c, 
+                               d, 
+                               e, 
+                               f, 
+                               g, 
+                               p);
+
+    input D0;
+    input D1;
+    input D2;
+    input D3;
+    input LE;
+    input point;
+   output a;
+   output b;
+   output c;
+   output d;
+   output e;
+   output f;
+   output g;
+   output p;
+   
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_21;
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_26;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire XLXN_29;
+   wire XLXN_30;
+   wire XLXN_31;
+   wire XLXN_32;
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_35;
+   wire XLXN_36;
+   wire XLXN_37;
+   wire XLXN_38;
+   wire XLXN_39;
+   wire XLXN_40;
+   wire XLXN_41;
+   wire XLXN_42;
+   wire XLXN_43;
+   wire XLXN_44;
+   wire XLXN_45;
+   wire XLXN_46;
+   wire XLXN_47;
+   wire XLXN_48;
+   wire XLXN_49;
+   
+   AND4  XLXI_1 (.I0(D0), 
+                .I1(XLXN_11), 
+                .I2(XLXN_10), 
+                .I3(XLXN_9), 
+                .O(XLXN_32));
+   AND4  XLXI_2 (.I0(D2), 
+                .I1(XLXN_12), 
+                .I2(XLXN_11), 
+                .I3(XLXN_9), 
+                .O(XLXN_33));
+   AND4  XLXI_3 (.I0(D0), 
+                .I1(D2), 
+                .I2(D3), 
+                .I3(XLXN_11), 
+                .O(XLXN_21));
+   AND4  XLXI_4 (.I0(D0), 
+                .I1(D1), 
+                .I2(D3), 
+                .I3(XLXN_10), 
+                .O(XLXN_22));
+   AND4  XLXI_5 (.I0(D0), 
+                .I1(D2), 
+                .I2(XLXN_11), 
+                .I3(XLXN_9), 
+                .O(XLXN_23));
+   AND3  XLXI_6 (.I0(D1), 
+                .I1(D2), 
+                .I2(XLXN_12), 
+                .O(XLXN_24));
+   AND3  XLXI_7 (.I0(D2), 
+                .I1(D3), 
+                .I2(XLXN_12), 
+                .O(XLXN_26));
+   AND3  XLXI_8 (.I0(D0), 
+                .I1(D1), 
+                .I2(D3), 
+                .O(XLXN_27));
+   AND4  XLXI_9 (.I0(D1), 
+                .I1(XLXN_12), 
+                .I2(XLXN_10), 
+                .I3(XLXN_9), 
+                .O(XLXN_28));
+   AND3  XLXI_10 (.I0(D1), 
+                 .I1(D2), 
+                 .I2(D3), 
+                 .O(XLXN_29));
+   AND3  XLXI_11 (.I0(D0), 
+                 .I1(D1), 
+                 .I2(D2), 
+                 .O(XLXN_31));
+   AND4  XLXI_34 (.I0(D1), 
+                 .I1(D3), 
+                 .I2(XLXN_12), 
+                 .I3(XLXN_10), 
+                 .O(XLXN_30));
+   AND2  XLXI_35 (.I0(D0), 
+                 .I1(XLXN_9), 
+                 .O(XLXN_34));
+   AND3  XLXI_36 (.I0(D2), 
+                 .I1(XLXN_11), 
+                 .I2(XLXN_9), 
+                 .O(XLXN_35));
+   AND3  XLXI_37 (.I0(D0), 
+                 .I1(XLXN_11), 
+                 .I2(XLXN_10), 
+                 .O(XLXN_36));
+   AND3  XLXI_38 (.I0(D0), 
+                 .I1(XLXN_10), 
+                 .I2(XLXN_9), 
+                 .O(XLXN_37));
+   AND3  XLXI_39 (.I0(D1), 
+                 .I1(XLXN_10), 
+                 .I2(XLXN_9), 
+                 .O(XLXN_38));
+   AND3  XLXI_40 (.I0(D0), 
+                 .I1(D1), 
+                 .I2(XLXN_9), 
+                 .O(XLXN_39));
+   AND3  XLXI_41 (.I0(XLXN_11), 
+                 .I1(XLXN_10), 
+                 .I2(XLXN_9), 
+                 .O(XLXN_42));
+   AND4  XLXI_42 (.I0(D0), 
+                 .I1(D1), 
+                 .I2(D2), 
+                 .I3(XLXN_9), 
+                 .O(XLXN_41));
+   AND4  XLXI_43 (.I0(D2), 
+                 .I1(D3), 
+                 .I2(XLXN_12), 
+                 .I3(XLXN_11), 
+                 .O(XLXN_40));
+   INV  XLXI_44 (.I(D3), 
+                .O(XLXN_9));
+   INV  XLXI_45 (.I(D2), 
+                .O(XLXN_10));
+   INV  XLXI_46 (.I(D1), 
+                .O(XLXN_11));
+   INV  XLXI_47 (.I(D0), 
+                .O(XLXN_12));
+   OR3  XLXI_48 (.I0(XLXN_40), 
+                .I1(XLXN_41), 
+                .I2(XLXN_42), 
+                .O(XLXN_49));
+   OR3  XLXI_50 (.I0(XLXN_36), 
+                .I1(XLXN_35), 
+                .I2(XLXN_34), 
+                .O(XLXN_47));
+   OR3  XLXI_52 (.I0(XLXN_29), 
+                .I1(XLXN_28), 
+                .I2(XLXN_26), 
+                .O(XLXN_45));
+   OR4  XLXI_53 (.I0(XLXN_39), 
+                .I1(XLXN_38), 
+                .I2(XLXN_37), 
+                .I3(XLXN_21), 
+                .O(XLXN_48));
+   OR4  XLXI_54 (.I0(XLXN_27), 
+                .I1(XLXN_26), 
+                .I2(XLXN_24), 
+                .I3(XLXN_23), 
+                .O(XLXN_44));
+   OR4  XLXI_55 (.I0(XLXN_22), 
+                .I1(XLXN_21), 
+                .I2(XLXN_33), 
+                .I3(XLXN_32), 
+                .O(XLXN_43));
+   OR4  XLXI_56 (.I0(XLXN_30), 
+                .I1(XLXN_31), 
+                .I2(XLXN_33), 
+                .I3(XLXN_32), 
+                .O(XLXN_46));
+   OR2  XLXI_57 (.I0(LE), 
+                .I1(XLXN_49), 
+                .O(g));
+   OR2  XLXI_58 (.I0(LE), 
+                .I1(XLXN_48), 
+                .O(f));
+   OR2  XLXI_59 (.I0(LE), 
+                .I1(XLXN_47), 
+                .O(e));
+   OR2  XLXI_60 (.I0(LE), 
+                .I1(XLXN_46), 
+                .O(d));
+   OR2  XLXI_61 (.I0(LE), 
+                .I1(XLXN_45), 
+                .O(c));
+   OR2  XLXI_62 (.I0(LE), 
+                .I1(XLXN_44), 
+                .O(b));
+   OR2  XLXI_63 (.I0(LE), 
+                .I1(XLXN_43), 
+                .O(a));
+   INV  XLXI_65 (.I(point), 
+                .O(p));
+endmodule
+`timescale 1ns / 1ps
+
+module DispSync_MUSER_DispNum(HEXS, 
+                              LES, 
+                              Point, 
+                              Scan, 
+                              AN, 
+                              HEX, 
+                              LE, 
+                              p);
+
+    input [15:0] HEXS;
+    input [3:0] LES;
+    input [3:0] Point;
+    input [1:0] Scan;
+   output [3:0] AN;
+   output [3:0] HEX;
+   output LE;
+   output p;
+   
+   wire XLXN_20;
+   wire XLXN_62;
+   wire XLXN_75;
+   wire XLXN_76;
+   wire XLXN_77;
+   wire XLXN_78;
+   
+   (* HU_SET = "XLXI_1_4" *) 
+   M4_1E_HXILINX_DispNum  XLXI_1 (.D0(Point[0]), 
+                                 .D1(Point[1]), 
+                                 .D2(Point[2]), 
+                                 .D3(Point[3]), 
+                                 .E(XLXN_20), 
+                                 .S0(Scan[0]), 
+                                 .S1(Scan[1]), 
+                                 .O(p));
+   (* HU_SET = "XLXI_2_5" *) 
+   M4_1E_HXILINX_DispNum  XLXI_2 (.D0(LES[0]), 
+                                 .D1(LES[1]), 
+                                 .D2(LES[2]), 
+                                 .D3(LES[3]), 
+                                 .E(XLXN_20), 
+                                 .S0(Scan[0]), 
+                                 .S1(Scan[1]), 
+                                 .O(XLXN_62));
+   VCC  XLXI_4 (.P(XLXN_20));
+   (* HU_SET = "XLXI_5_6" *) 
+   D2_4E_HXILINX_DispNum  XLXI_5 (.A0(Scan[0]), 
+                                 .A1(Scan[1]), 
+                                 .E(XLXN_20), 
+                                 .D0(XLXN_75), 
+                                 .D1(XLXN_76), 
+                                 .D2(XLXN_77), 
+                                 .D3(XLXN_78));
+   INV  XLXI_7 (.I(XLXN_62), 
+               .O(LE));
+   (* HU_SET = "XLXI_8_7" *) 
+   INV4_HXILINX_DispNum  XLXI_8 (.I0(XLXN_78), 
+                                .I1(XLXN_77), 
+                                .I2(XLXN_76), 
+                                .I3(XLXN_75), 
+                                .O0(AN[3]), 
+                                .O1(AN[2]), 
+                                .O2(AN[1]), 
+                                .O3(AN[0]));
+   Mux4to1b4  XLXI_9 (.A(HEXS[15:12]), 
+                     .B(HEXS[11:8]), 
+                     .C(HEXS[7:4]), 
+                     .ctrl(Scan[1:0]), 
+                     .D(HEXS[3:0]), 
+                     .O(HEX[3:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module DispNum(clk, 
+               HEXS, 
+               LES, 
+               points, 
+               rst, 
+               AN, 
+               Segment);
+
+    input clk;
+    input [15:0] HEXS;
+    input [3:0] LES;
+    input [3:0] points;
+    input rst;
+   output [3:0] AN;
+   output [7:0] Segment;
+   
+   wire [31:0] clkdiv;
+   wire [3:0] XLXN_8;
+   wire XLXN_12;
+   wire XLXN_13;
+   
+   clkdiv  XLXI_1 (.clk(clk), 
+                  .rst(rst), 
+                  .clkdiv(clkdiv[31:0]));
+   DispSync_MUSER_DispNum  XLXI_2 (.HEXS(HEXS[15:0]), 
+                                  .LES(LES[3:0]), 
+                                  .Point(points[3:0]), 
+                                  .Scan(clkdiv[18:17]), 
+                                  .AN(AN[3:0]), 
+                                  .HEX(XLXN_8[3:0]), 
+                                  .LE(XLXN_12), 
+                                  .p(XLXN_13));
+   MyMC14495_MUSER_DispNum  XLXI_3 (.D0(XLXN_8[0]), 
+                                   .D1(XLXN_8[1]), 
+                                   .D2(XLXN_8[2]), 
+                                   .D3(XLXN_8[3]), 
+                                   .LE(XLXN_12), 
+                                   .point(XLXN_13), 
+                                   .a(Segment[0]), 
+                                   .b(Segment[1]), 
+                                   .c(Segment[2]), 
+                                   .d(Segment[3]), 
+                                   .e(Segment[4]), 
+                                   .f(Segment[5]), 
+                                   .g(Segment[6]), 
+                                   .p(Segment[7]));
+endmodule

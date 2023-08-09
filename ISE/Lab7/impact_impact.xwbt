@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=F:\ISE\TopLab7\impact.xsl
+OUTFILE=F:\ISE\TopLab7\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=F:\ISE\TopLab7
+LICENSE=iMPACT
+USER_INFO=iMPACT

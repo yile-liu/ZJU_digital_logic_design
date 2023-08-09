@@ -1,0 +1,4 @@
+verilog isim_temp "My74LS161.v"
+verilog isim_temp "Counter60.v"
+verilog isim_temp "Counter60_sim.v"
+verilog isim_temp "d:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

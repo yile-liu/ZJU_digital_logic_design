@@ -1,0 +1,12 @@
+[Inputs]
+=ctrl[1:0]=
+=A[3:0]=
+=B[3:0]=
+=C[3:0]=
+=D[3:0]=
+[Outputs]
+=O[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Mux4to1b4
+

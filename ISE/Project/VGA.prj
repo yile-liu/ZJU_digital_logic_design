@@ -1,0 +1,6 @@
+verilog work "rand2b_generator.v"
+verilog work "VGA_drive.v"
+verilog work "VGA_display.v"
+verilog work "pbdebounce.v"
+verilog work "clkdiv32b.v"
+verilog work "VGA.v"

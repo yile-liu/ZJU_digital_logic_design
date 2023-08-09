@@ -1,0 +1,9 @@
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/MyMC14495.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/MyMC14495.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/DispSync_sch.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/DispSync_sch.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/MyAnd2b4.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/MyAnd2b4.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/MyOr2b4.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/MyOr2b4.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/Mux4to1b4_sch.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/Mux4to1b4_sch.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/DispNumLab7_sch.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/DispNumLab7_sch.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/DispSync_sch.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/DispSync_sch.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/ALU4b.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/ALU4b.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/NewLab9/DispNumLab7_sch.vf,-w,C:/Users/49530/Desktop/ISE/NewLab9/DispNumLab7_sch.sch

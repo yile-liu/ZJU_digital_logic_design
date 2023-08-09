@@ -1,0 +1,13 @@
+sch2hdl -intstyle ise -family kintex7 -verilog Addsub4b_drc.vf -w F:/ISE/NewLab9/Addsub4b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym Addsub4b F:/ISE/NewLab9/Addsub4b.sch F:/ISE/NewLab9/Addsub4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Addsub4b_drc.vf -w F:/ISE/NewLab9/Addsub4b.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog Addsub4b_drc.vf -w F:/ISE/NewLab9/Addsub4b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym Addsub4b F:/ISE/NewLab9/Addsub4b.sch F:/ISE/NewLab9/Addsub4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Addsub4b_drc.vf -w F:/ISE/NewLab9/Addsub4b.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog Addsub4b_drc.vf -w F:/ISE/NewLab9/Addsub4b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym Addsub4b F:/ISE/NewLab9/Addsub4b.sch F:/ISE/NewLab9/Addsub4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Addsub4b_drc.vf -w F:/ISE/NewLab9/Addsub4b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym Addsub4b F:/ISE/NewLab9/Addsub4b.sch F:/ISE/NewLab9/Addsub4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Addsub4b_drc.vf -w F:/ISE/NewLab9/Addsub4b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym Addsub4b F:/ISE/NewLab9/Addsub4b.sch F:/ISE/NewLab9/Addsub4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Addsub4b_drc.vf -w F:/ISE/NewLab9/Addsub4b.sch 

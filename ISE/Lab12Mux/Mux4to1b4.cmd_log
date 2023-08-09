@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/49530/Desktop/ISE/Lab12/Mux4to1b4.v -lang verilog -prj Lab12 -o Mux4to1b4.spl -module Mux4to1b4 -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 -w Mux4to1b4.spl C:/Users/49530/Desktop/ISE/Lab12/Mux4to1b4.sym 

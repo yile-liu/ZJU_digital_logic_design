@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj NewLab9 -o F:/ISE/NewLab9/CreateNumber.tfi -lib work F:/ISE/NewLab9//CreateNumber.v -module CreateNumber -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,4 @@
+verilog isim_temp "NewAddsub1b.vf"
+verilog isim_temp "Addsub4b.vf"
+verilog isim_temp "Addsub4b_sim.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/ALU4b.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/ALU4b.syr" 
+sch2sym -intstyle ise -family kintex7 -refsym ALU4b C:/Users/49530/Desktop/ISE/Lab12/ALU4b.sch C:/Users/49530/Desktop/ISE/Lab12/ALU4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU4b_drc.vf -w C:/Users/49530/Desktop/ISE/Lab12/ALU4b.sch 
+sch2sym -intstyle ise -family kintex7 -refsym ALU4b C:/Users/49530/Desktop/ISE/Lab12/ALU4b.sch C:/Users/49530/Desktop/ISE/Lab12/ALU4b.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym ALU4b C:/Users/49530/Desktop/ISE/Lab12/ALU4b.sch C:/Users/49530/Desktop/ISE/Lab12/ALU4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU4b_drc.vf -w C:/Users/49530/Desktop/ISE/Lab12Mux/ALU4b.sch 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12Mux/ALU4b.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12Mux/ALU4b.syr" 

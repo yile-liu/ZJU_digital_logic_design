@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/Lab12Trans/DispNum.vf,-w,C:/Users/49530/Desktop/ISE/Lab12Trans/DispNum.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/Lab12Trans/DispSync.vf,-w,C:/Users/49530/Desktop/ISE/Lab12Trans/DispSync.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,C:/Users/49530/Desktop/ISE/Lab12Trans/MyMC14495.vf,-w,C:/Users/49530/Desktop/ISE/Lab12Trans/MyMC14495.sch

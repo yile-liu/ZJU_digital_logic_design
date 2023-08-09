@@ -1,0 +1,3 @@
+verilog isim_temp "Mux2to1b4.v"
+verilog isim_temp "Mux2to1b4_sim.v"
+verilog isim_temp "d:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

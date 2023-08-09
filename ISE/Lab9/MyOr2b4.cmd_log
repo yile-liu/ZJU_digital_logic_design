@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MyOr2b4_drc.vf -w F:/ISE/NewLab9/MyOr2b4.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym MyOr2b4 F:/ISE/NewLab9/MyOr2b4.sch F:/ISE/NewLab9/MyOr2b4.sym 

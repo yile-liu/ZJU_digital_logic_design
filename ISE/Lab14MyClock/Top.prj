@@ -1,0 +1,5 @@
+verilog work "My74LS161.v"
+verilog work "Counter60.v"
+verilog work "Counter24.v"
+verilog work "clkdiv.v"
+verilog work "Top.v"

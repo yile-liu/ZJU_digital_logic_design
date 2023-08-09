@@ -1,0 +1,7 @@
+verilog work "Mux4to1b4_sch.vf"
+verilog work "MyMC14495.vf"
+verilog work "DispSync_sch.vf"
+verilog work "ClkDiv_HDL.v"
+verilog work "DispNumLab7_sch.vf"
+verilog work "CreateNumber.v"
+verilog work "Top_HDL.v"

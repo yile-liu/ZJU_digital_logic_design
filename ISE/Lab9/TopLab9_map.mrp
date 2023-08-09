@@ -1,0 +1,39 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'TopLab9'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+Target Device  : xc7k160t
+Target Package : ffg676
+Target Speed   : -1
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Mon Nov 29 20:14:50 2021
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Security:9c - No 'ISE' nor 'WebPack' feature version 2013.10 was available
+for part 'xc7k160t'.
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:43 - No license file was found in the standard Xilinx license
+directory.
+WARNING:Security:44 - Since no license file was found,
+
+Section 3 - Informational
+-------------------------
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to
+'C:\Users\49530\Desktop\xilinx_ise.lic'.
+INFO:Security:53 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:54 - 'xc7k160t' is a WebPack part.
+INFO:Security:68a - user is 49530, on host DESKTOP-B5L3GI1.

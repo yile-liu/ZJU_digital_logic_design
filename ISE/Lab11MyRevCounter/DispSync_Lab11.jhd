@@ -1,0 +1,3 @@
+MODULE DispSync_Lab11
+	SUBMODULE Mux4to1b4_sch
+		INSTANCE XLXI_9

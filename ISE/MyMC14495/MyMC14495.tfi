@@ -1,0 +1,21 @@
+// Verilog instantiation template created from schematic F:\MyMC14495\MyMC14495.sch - Mon Oct 25 17:19:40 2021
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   MyMC14495 UUT (
+		.D1(    ), 
+		.D3(    ), 
+		.D2(    ), 
+		.D0(    ), 
+		.LE(    ), 
+		.point(    ), 
+		.g(    ), 
+		.f(    ), 
+		.e(    ), 
+		.d(    ), 
+		.c(    ), 
+		.b(    ), 
+		.a(    )
+   );

@@ -1,0 +1,5 @@
+verilog work "ShiftReg16b.v"
+verilog work "RSLatch.vf"
+verilog work "P2S16b.v"
+verilog work "P2S16b_sim.v"
+verilog work "d:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

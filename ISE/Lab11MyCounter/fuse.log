@@ -1,0 +1,26 @@
+Running: d:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b_sim_isim_beh.exe -prj C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b_sim_beh.prj counter_4b_sim work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b.v" into library work
+Analyzing Verilog file "C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b_sim.v" into library work
+Analyzing Verilog file "d:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module FD(INIT=1'b0)
+Compiling module INV
+Compiling module XNOR2
+Compiling module NOR4
+Compiling module NOR2
+Compiling module NOR3
+Compiling module counter_4b
+Compiling module counter_4b_sim
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: ???????????, "isim\counter_4b_sim_isim_beh.exe.sim\libPortability.dll".
+Compiled 9 Verilog Units
+Built simulation executable C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b_sim_isim_beh.exe
+Fuse Memory Usage: 28120 KB
+Fuse CPU Usage: 359 ms

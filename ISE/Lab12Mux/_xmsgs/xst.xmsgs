@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\49530\Desktop\ISE\Lab12Mux\TopLab12.v" Line 54: Port <arg fmt="%s" index="1">Co</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\49530\Desktop\ISE\Lab12Mux\TopLab12.v" Line 55: Port <arg fmt="%s" index="1">Co</arg> is not connected to this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\49530\Desktop\ISE\Lab12Mux\TopLab12.v</arg>&quot; line <arg fmt="%s" index="2">54</arg>: Output port &lt;<arg fmt="%s" index="3">Co</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">AddSub_A</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\49530\Desktop\ISE\Lab12Mux\TopLab12.v</arg>&quot; line <arg fmt="%s" index="2">55</arg>: Output port &lt;<arg fmt="%s" index="3">Co</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">AddSub_B</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">AddSub_A</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">AddSub_B</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">AddSub_B/XLXI_5</arg>&gt; of block &lt;<arg fmt="%s" index="2">M4_1E_HXILINX_ALU4b</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">TopLab12</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">AddSub_A/XLXI_5</arg>&gt; of block &lt;<arg fmt="%s" index="2">M4_1E_HXILINX_ALU4b</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">TopLab12</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="2146" delta="old" >In block &lt;<arg fmt="%s" index="1">TopLab12</arg>&gt;, <arg fmt="%s" index="2">Counter</arg> &lt;<arg fmt="%s" index="3">clkdiv_1ms/clkdiv</arg>&gt; </msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkdiv_1ms/clkdiv_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopLab12</arg>&gt;.
+</msg>
+
+</messages>
+

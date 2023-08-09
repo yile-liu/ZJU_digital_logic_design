@@ -1,0 +1,22 @@
+
+NET "segment[0]" LOC = AB22 | IOSTANDARD = LVCMOS33 ;#a
+NET "segment[1]" LOC = AD24 | IOSTANDARD = LVCMOS33 ;#b
+NET "segment[2]" LOC = AD23 | IOSTANDARD = LVCMOS33 ;
+NET "segment[3]" LOC = Y21 | IOSTANDARD = LVCMOS33 ;
+NET "segment[4]" LOC = W20 | IOSTANDARD = LVCMOS33 ;
+NET "segment[5]" LOC = AC24 | IOSTANDARD = LVCMOS33 ;
+NET "segment[6]" LOC = AC23 | IOSTANDARD = LVCMOS33 ;#g
+NET "segment[7]" LOC = AA22 | IOSTANDARD = LVCMOS33 ;#point
+
+#point (aka Rc here) is supposed to be on LED but I forgot the pin. orz.
+
+NET "AN[0]" 			LOC = AD21      | IOSTANDARD = LVCMOS33 ;
+NET "AN[1]" 			LOC = AC22      | IOSTANDARD = LVCMOS33 ;
+NET "AN[2]" 			LOC = AB21      | IOSTANDARD = LVCMOS33 ;
+NET "AN[3]" 			LOC = AC21      | IOSTANDARD = LVCMOS33 ;
+
+NET "clk" LOC = AC18 | IOSTANDARD = LVCMOS18;
+
+NET "sw0" LOC = AA10 | IOSTANDARD = LVCMOS15;
+NET "sw2" LOC = AA13 | IOSTANDARD = LVCMOS15;
+NET "sw15" LOC = AF10 | IOSTANDARD = LVCMOS15;

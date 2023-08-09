@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/49530/Desktop/ISE/Lab14MyClock/Top.v" Line 30: Port <arg fmt="%s" index="1">CO</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/49530/Desktop/ISE/Lab14MyClock/Counter24.v" Line 31: Port <arg fmt="%s" index="1">CO</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/49530/Desktop/ISE/Lab14MyClock/Counter60.v" Line 31: Port <arg fmt="%s" index="1">CO</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="Simulator" num="0" delta="unknown" >Unable to copy libPortabilityNOSH.dll to the simulation executable directory: <arg fmt="%s" index="1">boost::filesystem::copy_file: ???????????, &quot;isim\Top_sim_isim_beh.exe.sim\libPortability.dll&quot;</arg>.
+</msg>
+
+</messages>
+

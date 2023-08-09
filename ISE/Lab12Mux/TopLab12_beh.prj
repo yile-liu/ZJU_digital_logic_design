@@ -1,0 +1,6 @@
+verilog work "pbdebounce.v"
+verilog work "REG4b.v"
+verilog work "Load.v"
+verilog work "clkdiv_1ms.v"
+verilog work "TopLab12.v"
+verilog work "d:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

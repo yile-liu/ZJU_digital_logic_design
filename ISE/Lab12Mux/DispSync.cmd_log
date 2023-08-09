@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog DispSync_drc.vf -w C:/Users/49530/Desktop/ISE/Lab12/DispSync.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym DispSync C:/Users/49530/Desktop/ISE/Lab12/DispSync.sch C:/Users/49530/Desktop/ISE/Lab12/DispSync.sym 

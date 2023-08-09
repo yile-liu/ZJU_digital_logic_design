@@ -1,0 +1,28 @@
+Command line:
+   P2S16b_sim_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60801
+
+Thu Dec 23 19:13:12 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.24 Meg
+
+ Total Signals          : 42
+ Total Nets             : 57
+ Total Signal Drivers   : 18
+ Total Blocks           : 7
+ Total Primitive Blocks : 4
+ Total Processes        : 22
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 175
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5154.24 Meg
+
+Thu Dec 23 19:13:25 2021
+

@@ -1,0 +1,4 @@
+verilog work "MyMC14495.vf"
+verilog work "counter_4b.v"
+verilog work "clkdiv_1s.v"
+verilog work "Top.v"

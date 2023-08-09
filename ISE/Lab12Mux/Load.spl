@@ -1,0 +1,10 @@
+[Inputs]
+clk
+clk_1ms
+btn_in
+[Outputs]
+Load_out
+[BiDir]
+[ATTRIBUTES]
+VeriModel Load
+

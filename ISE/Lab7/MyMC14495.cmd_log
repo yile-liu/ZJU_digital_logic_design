@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w F:/ISE/TopLab7/MyMC14495.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495.vf -w C:/Users/49530/Desktop/ISE/TopLab7/MyMC14495.sch 

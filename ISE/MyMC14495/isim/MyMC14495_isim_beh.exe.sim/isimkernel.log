@@ -1,0 +1,28 @@
+Command line:
+   MyMC14495_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62009
+
+Sun Oct 31 12:01:15 2021
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5158.22 Meg
+
+ Total Signals          : 214
+ Total Nets             : 60
+ Total Signal Drivers   : 45
+ Total Blocks           : 42
+ Total Primitive Blocks : 41
+ Total Processes        : 46
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 140
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5158.22 Meg
+
+Sun Oct 31 12:01:18 2021
+

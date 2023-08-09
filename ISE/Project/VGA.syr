@@ -1,0 +1,625 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: VGA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGA.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGA"
+Output Format                      : NGC
+Target Device                      : xc7k160t-1-ffg676
+
+---- Source Options
+Top Module Name                    : VGA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\49530\Desktop\ISE\Project\rand2b_generator.v" into library work
+Parsing module <rand2b_generator>.
+Analyzing Verilog file "C:\Users\49530\Desktop\ISE\Project\VGA_drive.v" into library work
+Parsing module <VGA_drive>.
+Analyzing Verilog file "C:\Users\49530\Desktop\ISE\Project\VGA_display.v" into library work
+Parsing module <VGA_display>.
+Analyzing Verilog file "C:\Users\49530\Desktop\ISE\Project\pbdebounce.v" into library work
+Parsing module <pbdebounce>.
+Analyzing Verilog file "C:\Users\49530\Desktop\ISE\Project\clkdiv32b.v" into library work
+Parsing module <clkdiv32b>.
+Analyzing Verilog file "C:\Users\49530\Desktop\ISE\Project\VGA.v" into library work
+Parsing module <VGA>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <VGA>.
+
+Elaborating module <clkdiv32b>.
+
+Elaborating module <pbdebounce>.
+
+Elaborating module <VGA_display>.
+
+Elaborating module <rand2b_generator>.
+
+Elaborating module <VGA_drive>.
+WARNING:Xst:2972 - "C:\Users\49530\Desktop\ISE\Project\VGA_display.v" line 74. All outputs of instance <rg> of block <rand2b_generator> are unconnected in block <VGA_display>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <VGA>.
+    Related source file is "C:\Users\49530\Desktop\ISE\Project\VGA.v".
+INFO:Xst:3210 - "C:\Users\49530\Desktop\ISE\Project\VGA.v" line 65: Output port <rdn> of the instance <u3> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <VGA> synthesized.
+
+Synthesizing Unit <clkdiv32b>.
+    Related source file is "C:\Users\49530\Desktop\ISE\Project\clkdiv32b.v".
+    Found 32-bit register for signal <clkdiv>.
+    Found 32-bit adder for signal <clkdiv[31]_GND_2_o_add_0_OUT> created at line 31.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+Unit <clkdiv32b> synthesized.
+
+Synthesizing Unit <pbdebounce>.
+    Related source file is "C:\Users\49530\Desktop\ISE\Project\pbdebounce.v".
+    Found 1-bit register for signal <pbreg>.
+    Found 8-bit register for signal <pbshift>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <pbdebounce> synthesized.
+
+Synthesizing Unit <VGA_display>.
+    Related source file is "C:\Users\49530\Desktop\ISE\Project\VGA_display.v".
+        H_DISP = 10'b1010000000
+        V_DISP = 10'b0111100000
+WARNING:Xst:647 - Input <pixel_xpos> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <pixel_ypos> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <btn_up> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <btn_down> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <btn_trigger> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clk_1s> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\49530\Desktop\ISE\Project\VGA_display.v" line 74: Output port <rand2b> of the instance <rg> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <pixel_data> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <VGA_display> synthesized.
+
+Synthesizing Unit <VGA_drive>.
+    Related source file is "C:\Users\49530\Desktop\ISE\Project\VGA_drive.v".
+    Found 10-bit register for signal <v_count>.
+    Found 9-bit register for signal <row>.
+    Found 10-bit register for signal <col>.
+    Found 1-bit register for signal <rdn>.
+    Found 1-bit register for signal <HS>.
+    Found 1-bit register for signal <VS>.
+    Found 4-bit register for signal <R>.
+    Found 4-bit register for signal <G>.
+    Found 4-bit register for signal <B>.
+    Found 10-bit register for signal <h_count>.
+    Found 10-bit subtractor for signal <col_addr> created at line 55.
+    Found 10-bit adder for signal <h_count[9]_GND_7_o_add_2_OUT> created at line 36.
+    Found 10-bit adder for signal <v_count[9]_GND_7_o_add_8_OUT> created at line 44.
+    Found 9-bit subtractor for signal <row_addr<8:0>> created at line 48.
+    Found 10-bit comparator greater for signal <h_sync> created at line 56
+    Found 10-bit comparator greater for signal <v_sync> created at line 57
+    Found 10-bit comparator greater for signal <GND_7_o_h_count[9]_LessThan_17_o> created at line 58
+    Found 10-bit comparator greater for signal <h_count[9]_PWR_9_o_LessThan_18_o> created at line 59
+    Found 10-bit comparator greater for signal <GND_7_o_v_count[9]_LessThan_19_o> created at line 60
+    Found 10-bit comparator greater for signal <v_count[9]_PWR_9_o_LessThan_20_o> created at line 61
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  54 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <VGA_drive> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 10-bit adder                                          : 2
+ 10-bit subtractor                                     : 1
+ 32-bit adder                                          : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 17
+ 1-bit register                                        : 6
+ 10-bit register                                       : 3
+ 32-bit register                                       : 1
+ 4-bit register                                        : 3
+ 8-bit register                                        : 3
+ 9-bit register                                        : 1
+# Comparators                                          : 6
+ 10-bit comparator greater                             : 6
+# Multiplexers                                         : 1
+ 10-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <db0> is unconnected in block <VGA>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <db1> is unconnected in block <VGA>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <db2> is unconnected in block <VGA>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <R_0> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <R_1> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <R_2> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <R_3> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <G_0> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <G_1> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <G_2> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <G_3> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <B_0> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <B_1> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <B_2> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <B_3> (without init value) has a constant value of 0 in block <u3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1290 - Hierarchical block <u2> is unconnected in block <VGA>.
+   It will be removed from the design.
+WARNING:Xst:2677 - Node <rdn> of sequential type is unconnected in block <u3>.
+
+Synthesizing (advanced) Unit <VGA_drive>.
+The following registers are absorbed into counter <h_count>: 1 register on signal <h_count>.
+The following registers are absorbed into counter <v_count>: 1 register on signal <v_count>.
+Unit <VGA_drive> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clkdiv32b>.
+The following registers are absorbed into counter <clkdiv>: 1 register on signal <clkdiv>.
+Unit <clkdiv32b> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 10-bit subtractor                                     : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 3
+ 10-bit up counter                                     : 2
+ 32-bit up counter                                     : 1
+# Registers                                            : 61
+ Flip-Flops                                            : 61
+# Comparators                                          : 6
+ 10-bit comparator greater                             : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <R_0> in Unit <VGA_drive> is equivalent to the following 11 FFs/Latches, which will be removed : <R_1> <R_2> <R_3> <G_0> <G_1> <G_2> <G_3> <B_0> <B_1> <B_2> <B_3> 
+WARNING:Xst:1710 - FF/Latch <R_0> (without init value) has a constant value of 0 in block <VGA_drive>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2973 - All outputs of instance <db0> of block <pbdebounce> are unconnected in block <VGA>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <db1> of block <pbdebounce> are unconnected in block <VGA>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <db2> of block <pbdebounce> are unconnected in block <VGA>. Underlying logic will be removed.
+WARNING:Xst:2677 - Node <u1/clkdiv_2> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_3> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_4> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_5> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_6> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_7> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_8> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_9> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_10> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_11> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_12> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_13> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_14> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_15> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_16> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_17> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_18> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_19> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_20> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_21> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_22> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_23> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_24> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_25> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_26> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_27> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_28> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_29> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_30> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u1/clkdiv_31> of sequential type is unconnected in block <VGA>.
+
+Optimizing unit <VGA> ...
+
+Optimizing unit <pbdebounce> ...
+
+Optimizing unit <VGA_drive> ...
+WARNING:Xst:2677 - Node <u3/col_9> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_8> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_7> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_6> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_5> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_4> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_3> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_2> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_1> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/col_0> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_8> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_7> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_6> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_5> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_4> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_3> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_2> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_1> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/row_0> of sequential type is unconnected in block <VGA>.
+WARNING:Xst:2677 - Node <u3/rdn> of sequential type is unconnected in block <VGA>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block VGA, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : VGA.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 86
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 12
+#      LUT2                        : 12
+#      LUT4                        : 1
+#      LUT5                        : 3
+#      LUT6                        : 12
+#      MUXCY                       : 19
+#      VCC                         : 1
+#      XORCY                       : 22
+# FlipFlops/Latches                : 24
+#      FD                          : 12
+#      FDC                         : 2
+#      FDCE                        : 10
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 1
+#      OBUF                        : 14
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k160tffg676-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              24  out of  202800     0%  
+ Number of Slice LUTs:                   43  out of  101400     0%  
+    Number used as Logic:                43  out of  101400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     43
+   Number with an unused Flip Flop:      19  out of     43    44%  
+   Number with an unused LUT:             0  out of     43     0%  
+   Number of fully used LUT-FF pairs:    24  out of     43    55%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          19
+ Number of bonded IOBs:                  16  out of    400     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_100mhz                         | BUFGP                  | 2     |
+u1/clkdiv_1                        | BUFG                   | 22    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.458ns (Maximum Frequency: 406.835MHz)
+   Minimum input arrival time before clock: 1.334ns
+   Maximum output required time after clock: 0.681ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_100mhz'
+  Clock period: 1.370ns (frequency: 729.927MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               1.370ns (Levels of Logic = 3)
+  Source:            u1/clkdiv_0 (FF)
+  Destination:       u1/clkdiv_1 (FF)
+  Source Clock:      clk_100mhz rising
+  Destination Clock: clk_100mhz rising
+
+  Data Path: u1/clkdiv_0 to u1/clkdiv_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.282   0.399  u1/clkdiv_0 (u1/clkdiv_0)
+     INV:I->O              1   0.067   0.000  u1/Mcount_clkdiv_lut<0>_INV_0 (u1/Mcount_clkdiv_lut<0>)
+     MUXCY:S->O            0   0.291   0.000  u1/Mcount_clkdiv_cy<0> (u1/Mcount_clkdiv_cy<0>)
+     XORCY:CI->O           1   0.320   0.000  u1/Mcount_clkdiv_xor<1> (Result<1>)
+     FDC:D                     0.011          u1/clkdiv_1
+    ----------------------------------------
+    Total                      1.370ns (0.971ns logic, 0.399ns route)
+                                       (70.9% logic, 29.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u1/clkdiv_1'
+  Clock period: 2.458ns (frequency: 406.835MHz)
+  Total number of paths / destination ports: 878 / 32
+-------------------------------------------------------------------------
+Delay:               2.458ns (Levels of Logic = 12)
+  Source:            u3/v_count_5 (FF)
+  Destination:       u3/v_count_9 (FF)
+  Source Clock:      u1/clkdiv_1 rising
+  Destination Clock: u1/clkdiv_1 rising
+
+  Data Path: u3/v_count_5 to u3/v_count_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.282   0.739  u3/v_count_5 (u3/v_count_5)
+     LUT5:I0->O            9   0.053   0.466  u3/v_count[9]_PWR_9_o_equal_8_o<9>_SW0 (N3)
+     LUT6:I5->O            1   0.053   0.399  u3/v_count[9]_PWR_9_o_equal_8_o_inv1 (u3/v_count[9]_PWR_9_o_equal_8_o_inv)
+     MUXCY:CI->O           1   0.015   0.000  u3/Mcount_v_count_cy<0> (u3/Mcount_v_count_cy<0>)
+     MUXCY:CI->O           1   0.015   0.000  u3/Mcount_v_count_cy<1> (u3/Mcount_v_count_cy<1>)
+     MUXCY:CI->O           1   0.015   0.000  u3/Mcount_v_count_cy<2> (u3/Mcount_v_count_cy<2>)
+     MUXCY:CI->O           1   0.015   0.000  u3/Mcount_v_count_cy<3> (u3/Mcount_v_count_cy<3>)
+     MUXCY:CI->O           1   0.015   0.000  u3/Mcount_v_count_cy<4> (u3/Mcount_v_count_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  u3/Mcount_v_count_cy<5> (u3/Mcount_v_count_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  u3/Mcount_v_count_cy<6> (u3/Mcount_v_count_cy<6>)
+     MUXCY:CI->O           1   0.015   0.000  u3/Mcount_v_count_cy<7> (u3/Mcount_v_count_cy<7>)
+     MUXCY:CI->O           0   0.015   0.000  u3/Mcount_v_count_cy<8> (u3/Mcount_v_count_cy<8>)
+     XORCY:CI->O           1   0.320   0.000  u3/Mcount_v_count_xor<9> (u3/Mcount_v_count9)
+     FDCE:D                    0.011          u3/v_count_9
+    ----------------------------------------
+    Total                      2.458ns (0.854ns logic, 1.604ns route)
+                                       (34.7% logic, 65.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100mhz'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.268ns (Levels of Logic = 2)
+  Source:            RSTN (PAD)
+  Destination:       u1/clkdiv_0 (FF)
+  Destination Clock: clk_100mhz rising
+
+  Data Path: RSTN to u1/clkdiv_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.000   0.405  RSTN_IBUF (RSTN_IBUF)
+     INV:I->O             12   0.067   0.471  RSTN_INV_51_o1_INV_0 (RSTN_INV_51_o)
+     FDC:CLR                   0.325          u1/clkdiv_0
+    ----------------------------------------
+    Total                      1.268ns (0.392ns logic, 0.876ns route)
+                                       (30.9% logic, 69.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u1/clkdiv_1'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              1.334ns (Levels of Logic = 3)
+  Source:            RSTN (PAD)
+  Destination:       u3/h_count_0 (FF)
+  Destination Clock: u1/clkdiv_1 rising
+
+  Data Path: RSTN to u3/h_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.000   0.745  RSTN_IBUF (RSTN_IBUF)
+     LUT6:I0->O           10   0.053   0.472  u3/Mcount_h_count_val1 (u3/Mcount_h_count_val)
+     LUT2:I1->O            1   0.053   0.000  u3/h_count_0_rstpot (u3/h_count_0_rstpot)
+     FD:D                      0.011          u3/h_count_0
+    ----------------------------------------
+    Total                      1.334ns (0.117ns logic, 1.217ns route)
+                                       (8.8% logic, 91.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u1/clkdiv_1'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              0.681ns (Levels of Logic = 1)
+  Source:            u3/HS (FF)
+  Destination:       HSYNC (PAD)
+  Source Clock:      u1/clkdiv_1 rising
+
+  Data Path: u3/HS to HSYNC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.282   0.399  u3/HS (u3/HS)
+     OBUF:I->O                 0.000          HSYNC_OBUF (HSYNC)
+    ----------------------------------------
+    Total                      0.681ns (0.282ns logic, 0.399ns route)
+                                       (41.4% logic, 58.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk_100mhz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_100mhz     |    1.370|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u1/clkdiv_1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u1/clkdiv_1    |    2.458|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.92 secs
+ 
+--> 
+
+Total memory usage is 4618040 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   79 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

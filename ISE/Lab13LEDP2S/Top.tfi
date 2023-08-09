@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+Top instance_name (
+    .start(start), 
+    .clk(clk), 
+    .LED(LED), 
+    .btn(btn), 
+    .LED_CLK(LED_CLK), 
+    .LED_CLR(LED_CLR), 
+    .LED_D0(LED_D0), 
+    .LED_EN(LED_EN)
+    );
+
+

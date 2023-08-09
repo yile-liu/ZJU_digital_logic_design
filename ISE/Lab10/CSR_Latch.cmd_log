@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family kintex7 -refsym CSR_Latch C:/Users/49530/Desktop/ISE/Lab10/CSR_Latch.sch C:/Users/49530/Desktop/ISE/Lab10/CSR_Latch.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog CSR_Latch_drc.vf -w C:/Users/49530/Desktop/ISE/Lab10/CSR_Latch.sch 

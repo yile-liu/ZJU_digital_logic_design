@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w C:/Users/49530/Desktop/ISE/Lab12/MyMC14495.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym MyMC14495 C:/Users/49530/Desktop/ISE/Lab12/MyMC14495.sch C:/Users/49530/Desktop/ISE/Lab12/MyMC14495.sym 

@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b.syr" 
+vhdtdtfi -lib work C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b.v -lang verilog -prj Lab11MyCounter -o counter_4b.spl -module counter_4b -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 counter_4b.spl C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b.sym 
+vhdtdtfi -lang verilog -prj Lab11MyCounter -o C:/Users/49530/Desktop/ISE/Lab11MyCounter/counter_4b.tfi -lib work C:/Users/49530/Desktop/ISE/Lab11MyCounter//counter_4b.v -module counter_4b -template d:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

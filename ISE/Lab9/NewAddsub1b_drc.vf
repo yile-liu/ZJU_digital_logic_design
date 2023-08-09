@@ -1,0 +1,60 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : NewAddsub1b_drc.vf
+// /___/   /\     Timestamp : 11/11/2021 16:12:25
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family kintex7 -verilog NewAddsub1b_drc.vf -w F:/ISE/NewLab9/NewAddsub1b.sch
+//Design Name: NewAddsub1b
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module NewAddsub1b(A, 
+                   B, 
+                   Cin, 
+                   Ctrl, 
+                   Cout, 
+                   S);
+
+    input A;
+    input B;
+    input Cin;
+    input Ctrl;
+   output Cout;
+   output S;
+   
+   wire XLXN_1;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_33;
+   
+   XOR2  XLXI_1 (.I0(XLXN_33), 
+                .I1(A), 
+                .O(XLXN_1));
+   XOR2  XLXI_2 (.I0(Cin), 
+                .I1(XLXN_1), 
+                .O(S));
+   OR2  XLXI_3 (.I0(XLXN_3), 
+               .I1(XLXN_4), 
+               .O(Cout));
+   AND2  XLXI_4 (.I0(XLXN_33), 
+                .I1(A), 
+                .O(XLXN_3));
+   AND2  XLXI_5 (.I0(Cin), 
+                .I1(XLXN_1), 
+                .O(XLXN_4));
+   XOR2  XLXI_13 (.I0(Ctrl), 
+                 .I1(B), 
+                 .O(XLXN_33));
+endmodule

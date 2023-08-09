@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj TopLab7 -o F:/ISE/TopLab7/ClkDiv_HDL.tfi -lib work F:/ISE/TopLab7//ClkDiv_HDL.v -module ClkDiv_HDL -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

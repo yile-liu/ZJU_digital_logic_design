@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "F:/ISE/NewLab9/TopLab9.xst" -ofn "F:/ISE/NewLab9/TopLab9.syr" 
+xst -intstyle ise -ifn "F:/ISE/NewLab9/TopLab9.xst" -ofn "F:/ISE/NewLab9/TopLab9.syr" 
+xst -intstyle ise -ifn "F:/ISE/NewLab9/TopLab9.xst" -ofn "F:/ISE/NewLab9/TopLab9.syr" 
+xst -intstyle ise -ifn "F:/ISE/NewLab9/TopLab9.xst" -ofn "F:/ISE/NewLab9/TopLab9.syr" 
+xst -intstyle ise -ifn "F:/ISE/NewLab9/TopLab9.xst" -ofn "F:/ISE/NewLab9/TopLab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+par -w -intstyle ise -ol high -mt off TopLab9_map.ncd TopLab9.ncd TopLab9.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab9.twx TopLab9.ncd -o TopLab9.twr TopLab9.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+par -w -intstyle ise -ol high -mt off TopLab9_map.ncd TopLab9.ncd TopLab9.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab9.twx TopLab9.ncd -o TopLab9.twr TopLab9.pcf 
+bitgen -intstyle ise -f TopLab9.ut TopLab9.ncd 
+xst -intstyle ise -ifn "F:/ISE/NewLab9/TopLab9.xst" -ofn "F:/ISE/NewLab9/TopLab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9_ucf.ucf -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9_ucf.ucf -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+par -w -intstyle ise -ol high -mt off TopLab9_map.ncd TopLab9.ncd TopLab9.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab9.twx TopLab9.ncd -o TopLab9.twr TopLab9.pcf -ucf Lab9_ucf.ucf 
+bitgen -intstyle ise -f TopLab9.ut TopLab9.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9_ucf.ucf -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+par -w -intstyle ise -ol high -mt off TopLab9_map.ncd TopLab9.ncd TopLab9.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab9.twx TopLab9.ncd -o TopLab9.twr TopLab9.pcf -ucf Lab9_ucf.ucf 
+bitgen -intstyle ise -f TopLab9.ut TopLab9.ncd 
+xst -intstyle ise -ifn "F:/ISE/NewLab9/TopLab9.xst" -ofn "F:/ISE/NewLab9/TopLab9.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/NewLab9/TopLab9.xst" -ofn "C:/Users/49530/Desktop/ISE/NewLab9/TopLab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9_ucf.ucf -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+par -w -intstyle ise -ol high -mt off TopLab9_map.ncd TopLab9.ncd TopLab9.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab9.twx TopLab9.ncd -o TopLab9.twr TopLab9.pcf -ucf Lab9_ucf.ucf 
+bitgen -intstyle ise -f TopLab9.ut TopLab9.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9_ucf.ucf -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+par -w -intstyle ise -ol high -mt off TopLab9_map.ncd TopLab9.ncd TopLab9.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab9.twx TopLab9.ncd -o TopLab9.twr TopLab9.pcf -ucf Lab9_ucf.ucf 
+bitgen -intstyle ise -f TopLab9.ut TopLab9.ncd 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/NewLab9/TopLab9.xst" -ofn "C:/Users/49530/Desktop/ISE/NewLab9/TopLab9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9_ucf.ucf -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+par -w -intstyle ise -ol high -mt off TopLab9_map.ncd TopLab9.ncd TopLab9.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab9.twx TopLab9.ncd -o TopLab9.twr TopLab9.pcf -ucf Lab9_ucf.ucf 
+bitgen -intstyle ise -f TopLab9.ut TopLab9.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9_ucf.ucf -p xc7k160t-ffg676-1 TopLab9.ngc TopLab9.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab9_map.ncd TopLab9.ngd TopLab9.pcf 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/NewLab9/TopLab9.xst" -ofn "C:/Users/49530/Desktop/ISE/NewLab9/TopLab9.syr" 

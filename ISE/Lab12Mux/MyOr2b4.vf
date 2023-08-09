@@ -1,0 +1,44 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MyOr2b4.vf
+// /___/   /\     Timestamp : 12/12/2021 13:52:45
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/49530/Desktop/ISE/Lab12/MyOr2b4.vf -w C:/Users/49530/Desktop/ISE/Lab12/MyOr2b4.sch
+//Design Name: MyOr2b4
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MyOr2b4(A, 
+               B, 
+               S);
+
+    input [3:0] A;
+    input [3:0] B;
+   output [3:0] S;
+   
+   
+   OR2  XLXI_5 (.I0(B[0]), 
+               .I1(A[0]), 
+               .O(S[0]));
+   OR2  XLXI_6 (.I0(B[1]), 
+               .I1(A[1]), 
+               .O(S[1]));
+   OR2  XLXI_7 (.I0(B[2]), 
+               .I1(A[2]), 
+               .O(S[2]));
+   OR2  XLXI_8 (.I0(B[3]), 
+               .I1(A[3]), 
+               .O(S[3]));
+endmodule

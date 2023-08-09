@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family kintex7 -verilog DispSync_sch_drc.vf -w F:/ISE/TopLab7/DispSync_sch.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog DispSync_sch_drc.vf -w F:/ISE/TopLab7/DispSync_sch.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog DispSync_sch_drc.vf -w F:/ISE/TopLab7/DispSync_sch.sch 

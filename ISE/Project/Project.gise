@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Project.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="VGA.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="VGA.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="VGA.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="VGA.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VGA.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="VGA.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="VGA.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="VGA.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VGA_display.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="VGA_display.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="VGA_display.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VGA_drive.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="VGA_drive.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="VGA_drive.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="VGA_drive_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="VGA_drive_sim_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VGA_drive_sim_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="VGA_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="VGA_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="VGA_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clkdiv_sim_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clkdiv_sim_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="clkdiv_sim_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1640177734" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1640177734">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640233697" xil_pn:in_ck="5668126041858084003" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1640233697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="VGA.v"/>
+      <outfile xil_pn:name="VGA_display.v"/>
+      <outfile xil_pn:name="VGA_drive.v"/>
+      <outfile xil_pn:name="VGA_drive_sim.v"/>
+      <outfile xil_pn:name="clkdiv32b.v"/>
+      <outfile xil_pn:name="clkdiv_sim.v"/>
+      <outfile xil_pn:name="pbdebounce.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1640233697" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5102408188771887516" xil_pn:start_ts="1640233697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640233697" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3308169330559000752" xil_pn:start_ts="1640233697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640177734" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1874825035035894132" xil_pn:start_ts="1640177734">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640233697" xil_pn:in_ck="5668126041858084003" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1640233697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="VGA.v"/>
+      <outfile xil_pn:name="VGA_display.v"/>
+      <outfile xil_pn:name="VGA_drive.v"/>
+      <outfile xil_pn:name="VGA_drive_sim.v"/>
+      <outfile xil_pn:name="clkdiv32b.v"/>
+      <outfile xil_pn:name="clkdiv_sim.v"/>
+      <outfile xil_pn:name="pbdebounce.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1640233701" xil_pn:in_ck="5668126041858084003" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1559242449041216110" xil_pn:start_ts="1640233697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clkdiv_sim_beh.prj"/>
+      <outfile xil_pn:name="clkdiv_sim_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1640233702" xil_pn:in_ck="5174548301198643368" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5209087705508347509" xil_pn:start_ts="1640233701">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clkdiv_sim_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1640176715" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1640176715">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640176715" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7598609822773702345" xil_pn:start_ts="1640176715">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640176715" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1874825035035894132" xil_pn:start_ts="1640176715">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640176715" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1640176715">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640176715" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="608291252599711829" xil_pn:start_ts="1640176715">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640176715" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-679146238375871736" xil_pn:start_ts="1640176715">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640176715" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="222273782976249598" xil_pn:start_ts="1640176715">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640259696" xil_pn:in_ck="3351586205052139098" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-1370587029508659940" xil_pn:start_ts="1640259685">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="VGA.lso"/>
+      <outfile xil_pn:name="VGA.ngc"/>
+      <outfile xil_pn:name="VGA.ngr"/>
+      <outfile xil_pn:name="VGA.prj"/>
+      <outfile xil_pn:name="VGA.stx"/>
+      <outfile xil_pn:name="VGA.syr"/>
+      <outfile xil_pn:name="VGA.xst"/>
+      <outfile xil_pn:name="VGA_display.prj"/>
+      <outfile xil_pn:name="VGA_drive.prj"/>
+      <outfile xil_pn:name="VGA_drive_sim_stx_beh.prj"/>
+      <outfile xil_pn:name="VGA_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

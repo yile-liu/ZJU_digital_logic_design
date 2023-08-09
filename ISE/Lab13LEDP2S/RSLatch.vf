@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : RSLatch.vf
+// /___/   /\     Timestamp : 12/20/2021 13:08:22
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/49530/Desktop/ISE/Lab13LEDP2S/RSLatch.vf -w C:/Users/49530/Desktop/ISE/Lab13LEDP2S/RSLatch.sch
+//Design Name: RSLatch
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module RSLatch(R, 
+               S, 
+               Q);
+
+    input R;
+    input S;
+   output Q;
+   
+   wire XLXN_2;
+   wire Q_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   NOR2  XLXI_1 (.I0(Q_DUMMY), 
+                .I1(S), 
+                .O(XLXN_2));
+   NOR2  XLXI_2 (.I0(R), 
+                .I1(XLXN_2), 
+                .O(Q_DUMMY));
+endmodule

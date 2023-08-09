@@ -1,0 +1,18 @@
+sch2sym -intstyle ise -family kintex7 -w -refsym ALU4b F:/ISE/NewLab9/ALU4b.sch F:/ISE/NewLab9/ALU4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU4b_drc.vf -w F:/ISE/NewLab9/ALU4b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym ALU4b F:/ISE/NewLab9/ALU4b.sch F:/ISE/NewLab9/ALU4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU4b_drc.vf -w F:/ISE/NewLab9/ALU4b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym ALU4b F:/ISE/NewLab9/ALU4b.sch F:/ISE/NewLab9/ALU4b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU4b_drc.vf -w F:/ISE/NewLab9/ALU4b.sch 
+xst -intstyle ise -ifn "F:/ISE/NewLab9/ALU4b.xst" -ofn "F:/ISE/NewLab9/ALU4b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 ALU4b.ngc ALU4b.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU4b_map.ncd ALU4b.ngd ALU4b.pcf 
+par -w -intstyle ise -ol high -mt off ALU4b_map.ncd ALU4b.ncd ALU4b.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALU4b.twx ALU4b.ncd -o ALU4b.twr ALU4b.pcf 
+xst -intstyle ise -ifn "F:/ISE/NewLab9/ALU4b.xst" -ofn "F:/ISE/NewLab9/ALU4b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 ALU4b.ngc ALU4b.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU4b_map.ncd ALU4b.ngd ALU4b.pcf 
+par -w -intstyle ise -ol high -mt off ALU4b_map.ncd ALU4b.ncd ALU4b.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALU4b.twx ALU4b.ncd -o ALU4b.twr ALU4b.pcf 
+sch2hdl -intstyle ise -family kintex7 -verilog ALU4b_drc.vf -w C:/Users/49530/Desktop/ISE/NewLab9/ALU4b.sch 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w C:/Users/49530/Desktop/ISE/NewLab9/ALU4b.sch ALU4b.tfi 

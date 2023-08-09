@@ -1,0 +1,28 @@
+Command line:
+   D_74LS138_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2055
+
+Mon Oct 25 16:03:24 2021
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5157.77 Meg
+
+ Total Signals          : 85
+ Total Nets             : 36
+ Total Signal Drivers   : 22
+ Total Blocks           : 19
+ Total Primitive Blocks : 18
+ Total Processes        : 23
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 116
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 5157.77 Meg
+
+Mon Oct 25 16:03:32 2021
+

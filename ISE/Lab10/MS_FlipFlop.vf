@@ -1,0 +1,85 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MS_FlipFlop.vf
+// /___/   /\     Timestamp : 11/22/2021 16:26:32
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/49530/Desktop/ISE/Lab10/MS_FlipFlop.vf -w C:/Users/49530/Desktop/ISE/Lab10/MS_FlipFlop.sch
+//Design Name: MS_FlipFlop
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module CSR_Latch_MUSER_MS_FlipFlop(C, 
+                                   Reset, 
+                                   Set, 
+                                   NotQ, 
+                                   Q);
+
+    input C;
+    input Reset;
+    input Set;
+   output NotQ;
+   output Q;
+   
+   wire r;
+   wire s;
+   wire NotQ_DUMMY;
+   wire Q_DUMMY;
+   
+   assign NotQ = NotQ_DUMMY;
+   assign Q = Q_DUMMY;
+   NAND2  XLXI_3 (.I0(NotQ_DUMMY), 
+                 .I1(s), 
+                 .O(Q_DUMMY));
+   NAND2  XLXI_4 (.I0(r), 
+                 .I1(Q_DUMMY), 
+                 .O(NotQ_DUMMY));
+   NAND2  XLXI_6 (.I0(C), 
+                 .I1(Set), 
+                 .O(s));
+   NAND2  XLXI_7 (.I0(Reset), 
+                 .I1(C), 
+                 .O(r));
+endmodule
+`timescale 1ns / 1ps
+
+module MS_FlipFlop(clk, 
+                   R, 
+                   S, 
+                   NotQ, 
+                   Q);
+
+    input clk;
+    input R;
+    input S;
+   output NotQ;
+   output Q;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   
+   CSR_Latch_MUSER_MS_FlipFlop  XLXI_1 (.C(clk), 
+                                       .Reset(R), 
+                                       .Set(S), 
+                                       .NotQ(XLXN_2), 
+                                       .Q(XLXN_1));
+   CSR_Latch_MUSER_MS_FlipFlop  XLXI_2 (.C(XLXN_3), 
+                                       .Reset(XLXN_2), 
+                                       .Set(XLXN_1), 
+                                       .NotQ(NotQ), 
+                                       .Q(Q));
+   INV  XLXI_3 (.I(clk), 
+               .O(XLXN_3));
+endmodule

@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+ClkDiv_HDL instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .clkdiv(clkdiv)
+    );
+
+

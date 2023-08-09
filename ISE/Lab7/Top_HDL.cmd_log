@@ -1,0 +1,59 @@
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_ucf.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_ucf.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf -ucf Top_ucf.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_ucf.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf -ucf Top_ucf.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf -ucf lab7.ucf 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf -ucf lab7.ucf 
+bitgen -intstyle ise -f Top_HDL.ut Top_HDL.ncd 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf -ucf lab7.ucf 
+bitgen -intstyle ise -f Top_HDL.ut Top_HDL.ncd 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf -ucf lab7.ucf 
+bitgen -intstyle ise -f Top_HDL.ut Top_HDL.ncd 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf -ucf lab7.ucf 
+bitgen -intstyle ise -f Top_HDL.ut Top_HDL.ncd 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+xst -intstyle ise -ifn "F:/ISE/TopLab7/Top_HDL.xst" -ofn "F:/ISE/TopLab7/Top_HDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7.ucf -p xc7k160t-ffg676-1 Top_HDL.ngc Top_HDL.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_HDL_map.ncd Top_HDL.ngd Top_HDL.pcf 
+par -w -intstyle ise -ol high -mt off Top_HDL_map.ncd Top_HDL.ncd Top_HDL.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Top_HDL.twx Top_HDL.ncd -o Top_HDL.twr Top_HDL.pcf -ucf lab7.ucf 
+bitgen -intstyle ise -f Top_HDL.ut Top_HDL.ncd 

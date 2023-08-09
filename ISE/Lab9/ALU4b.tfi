@@ -1,0 +1,13 @@
+// Verilog instantiation template created from schematic C:\Users\49530\Desktop\ISE\NewLab9\ALU4b.sch - Sun Dec 12 13:38:16 2021
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   ALU4b UUT (
+		.A(    ), 
+		.B(    ), 
+		.S(    ), 
+		.O(    ), 
+		.Co(    )
+   );

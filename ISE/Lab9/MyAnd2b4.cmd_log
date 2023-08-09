@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MyAnd2b4_drc.vf -w F:/ISE/NewLab9/MyAnd2b4.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym MyAnd2b4 F:/ISE/NewLab9/MyAnd2b4.sch F:/ISE/NewLab9/MyAnd2b4.sym 

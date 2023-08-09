@@ -1,0 +1,7 @@
+verilog work "Mux4to1b4_sch.vf"
+verilog work "RevCounter_16b.v"
+verilog work "MyMC14495.vf"
+verilog work "DispSync_Lab11.vf"
+verilog work "clkdiv_scan.v"
+verilog work "clkdiv_100ms.v"
+verilog work "DispNumLab11.v"

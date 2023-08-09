@@ -1,0 +1,12 @@
+[Inputs]
+clk
+[Outputs]
+Qa
+Qb
+Qc
+Qd
+Rc
+[BiDir]
+[ATTRIBUTES]
+VeriModel counter_4b
+

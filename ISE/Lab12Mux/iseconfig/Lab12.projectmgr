@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab12" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU4b C:|Users|49530|Desktop|ISE|Lab12Mux|ALU4b.sch</ClosedNode>
+         <ClosedNode>/ALU4b C:|Users|49530|Desktop|ISE|Lab12|ALU4b.sch</ClosedNode>
+         <ClosedNode>/ALU4b C:|Users|49530|Desktop|ISE|Lab12|ALU4b.sch/XLXI_1 - Addsub4b</ClosedNode>
+         <ClosedNode>/ALU4b C:|Users|49530|Desktop|ISE|Lab12|ALU4b.v</ClosedNode>
+         <ClosedNode>/DispNum C:|Users|49530|Desktop|ISE|Lab12Mux|DispNum.sch</ClosedNode>
+         <ClosedNode>/Load C:|Users|49530|Desktop|ISE|Lab12Mux|Load.v</ClosedNode>
+         <ClosedNode>/Load C:|Users|49530|Desktop|ISE|Lab12|Load.v</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12Mux|TopLab12.v/ALU - ALU4b</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12Mux|TopLab12.v/AddSub_A - ALU4b</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12Mux|TopLab12.v/AddSub_B - ALU4b</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12Mux|TopLab12.v/LOAD_B - Load</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12Mux|TopLab12.v/LOAD_C - Load</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12Mux|TopLab12.v/display - DispNum</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12|TopLab12.v/ALU - ALU4b</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12|TopLab12.v/ALU - ALU4b/XLXI_1 - Addsub4b</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12|TopLab12.v/AddSub_A - ALU4b</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12|TopLab12.v/AddSub_B - ALU4b</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12|TopLab12.v/LOAD_B - Load</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12|TopLab12.v/LOAD_C - Load</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>p0 - pbdebounce (C:/Users/49530/Desktop/ISE/Lab12Mux/pbdebounce.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016d0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>p0 - pbdebounce (C:/Users/49530/Desktop/ISE/Lab12Mux/pbdebounce.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001bd000000010000000100000000000000000000000064ffffffff000000810000000000000001000001bd0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000038e000000040101000100000000000000000000000064ffffffff000000810000000000000004000000480000000100000000000000270000000100000000000000760000000100000000000002a90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Addsub4b.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Mux4to1b4.v</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000103000000010001000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Mux4to1b4.v</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001330000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f0000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a8000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU4b C:|Users|49530|Desktop|ISE|Lab12|ALU4b.sch</ClosedNode>
+         <ClosedNode>/Mux2to1b4_sim C:|Users|49530|Desktop|ISE|Lab12Mux|Mux2to1b4_sim.v</ClosedNode>
+         <ClosedNode>/Mux2to1b4_sim C:|Users|49530|Desktop|ISE|Lab12|Mux2to1b4_sim.v</ClosedNode>
+         <ClosedNode>/Mux4to1b4_sch_Mux4to1b4_sch_sch_tb C:|Users|49530|Desktop|ISE|Lab12|Mux4to1b4_sim.v</ClosedNode>
+         <ClosedNode>/Mux4to1b4_sim C:|Users|49530|Desktop|ISE|Lab12Mux|Mux4to1b4_sim.v</ClosedNode>
+         <ClosedNode>/Mux4to1b4_sim C:|Users|49530|Desktop|ISE|Lab12|Mux4to1b4_sim.v</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12Mux|TopLab12.v</ClosedNode>
+         <ClosedNode>/TopLab12 C:|Users|49530|Desktop|ISE|Lab12|TopLab12.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Mux4to1b4_sim (C:/Users/49530/Desktop/ISE/Lab12Mux/Mux4to1b4_sim.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000148000000020000000000000000000000000200000064ffffffff000000810000000300000002000001480000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Mux4to1b4_sim (C:/Users/49530/Desktop/ISE/Lab12Mux/Mux4to1b4_sim.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>pbdebounce.v (C:/Users/49530/Desktop/ISE/Lab12Mux/pbdebounce.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000179000000020000000000000000000000000000000064ffffffff000000810000000000000002000000e20000000100000000000000970000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>pbdebounce.v (C:/Users/49530/Desktop/ISE/Lab12Mux/pbdebounce.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000198000000010000000100000000000000000000000064ffffffff000000810000000000000001000001980000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

@@ -1,0 +1,5 @@
+sch2hdl -intstyle ise -family kintex7 -verilog DispNumLab7_sch_drc.vf -w F:/ISE/TopLab7/DispNumLab7_sch.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog DispNumLab7_sch_drc.vf -w F:/ISE/TopLab7/DispNumLab7_sch.sch 
+sch2sym -intstyle ise -family kintex7 -refsym DispNumLab7_sch F:/ISE/TopLab7/DispNumLab7_sch.sch F:/ISE/TopLab7/DispNumLab7_sch.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym DispNumLab7_sch F:/ISE/TopLab7/DispNumLab7_sch.sch F:/ISE/TopLab7/DispNumLab7_sch.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym DispNumLab7_sch C:/Users/49530/Desktop/ISE/TopLab7/DispNumLab7_sch.sch C:/Users/49530/Desktop/ISE/TopLab7/DispNumLab7_sch.sym 

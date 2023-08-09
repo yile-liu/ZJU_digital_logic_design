@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\49530\Desktop\ISE\Lab11MyRevCounter\Top.v" Line 40: Port <arg fmt="%s" index="1">Point</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\49530\Desktop\ISE\Lab11MyRevCounter\Top.v" Line 41: Port <arg fmt="%s" index="1">point</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\49530\Desktop\ISE\Lab11MyRevCounter\RevCounter_16b.v" Line 29: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\49530\Desktop\ISE\Lab11MyRevCounter\RevCounter_16b.v" Line 31: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\49530\Desktop\ISE\Lab11MyRevCounter\Top.v" Line 40: Input port <arg fmt="%s" index="1">Point[3]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\49530\Desktop\ISE\Lab11MyRevCounter\Top.v" Line 41: Input port <arg fmt="%s" index="1">point</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">Point</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">c3</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\49530\Desktop\ISE\Lab11MyRevCounter\Top.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">p</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\49530\Desktop\ISE\Lab11MyRevCounter\Top.v</arg>&quot; line <arg fmt="%s" index="2">41</arg>: Output port &lt;<arg fmt="%s" index="3">p</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">c4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">c3</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="old" >All outputs of instance &lt;<arg fmt="%s" index="1">c3/XLXI_1</arg>&gt; of block &lt;<arg fmt="%s" index="2">M4_1E_HXILINX_DispSync_Lab11</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">c0/clkdiv_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,70 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : D_FlipFlop.vf
+// /___/   /\     Timestamp : 11/29/2021 19:08:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/49530/Desktop/ISE/Lab10/D_FlipFlop.vf -w C:/Users/49530/Desktop/ISE/Lab10/D_FlipFlop.sch
+//Design Name: D_FlipFlop
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module D_FlipFlop(Cp, 
+                  D, 
+                  R, 
+                  S, 
+                  NotQ, 
+                  Q);
+
+    input Cp;
+    input D;
+    input R;
+    input S;
+   output NotQ;
+   output Q;
+   
+   wire XLXN_3;
+   wire XLXN_5;
+   wire XLXN_7;
+   wire XLXN_15;
+   wire NotQ_DUMMY;
+   wire Q_DUMMY;
+   
+   assign NotQ = NotQ_DUMMY;
+   assign Q = Q_DUMMY;
+   NAND3  XLXI_16 (.I0(XLXN_5), 
+                  .I1(XLXN_7), 
+                  .I2(S), 
+                  .O(XLXN_3));
+   NAND3  XLXI_17 (.I0(Cp), 
+                  .I1(R), 
+                  .I2(XLXN_3), 
+                  .O(XLXN_5));
+   NAND3  XLXI_18 (.I0(XLXN_7), 
+                  .I1(Cp), 
+                  .I2(XLXN_5), 
+                  .O(XLXN_15));
+   NAND3  XLXI_19 (.I0(R), 
+                  .I1(D), 
+                  .I2(XLXN_15), 
+                  .O(XLXN_7));
+   NAND3  XLXI_20 (.I0(NotQ_DUMMY), 
+                  .I1(XLXN_5), 
+                  .I2(S), 
+                  .O(Q_DUMMY));
+   NAND3  XLXI_21 (.I0(R), 
+                  .I1(XLXN_15), 
+                  .I2(Q_DUMMY), 
+                  .O(NotQ_DUMMY));
+endmodule

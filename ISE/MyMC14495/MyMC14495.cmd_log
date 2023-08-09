@@ -1,0 +1,14 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w F:/MyMC14495/MyMC14495.sch 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w F:/MyMC14495/MyMC14495.sch MyMC14495.tfi 
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495.vf -w F:/MyMC14495/MyMC14495.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w F:/MyMC14495/MyMC14495.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w E:/MyMC14495/MyMC14495.sch 
+sch2sym -intstyle ise -family kintex7 -refsym MyMC14495 E:/MyMC14495/MyMC14495.sch E:/MyMC14495/MyMC14495.sym 
+sch2sym -intstyle ise -family kintex7 -refsym MyMC14495 E:/MyMC14495/MyMC14495.sch E:/MyMC14495/MyMC14495.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w E:/MyMC14495/MyMC14495.sch 
+sch2sym -intstyle ise -family kintex7 -refsym MyMC14495 E:/MyMC14495/MyMC14495.sch E:/MyMC14495/MyMC14495.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog MyMC14495_drc.vf -w E:/MyMC14495/MyMC14495.sch 
+sch2sym -intstyle ise -family kintex7 -refsym MyMC14495 E:/MyMC14495/MyMC14495.sch E:/MyMC14495/MyMC14495.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym MyMC14495 E:/MyMC14495/MyMC14495.sch E:/MyMC14495/MyMC14495.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym MyMC14495 E:/MyMC14495/MyMC14495.sch E:/MyMC14495/MyMC14495.sym 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/MyMC14495/MyMC14495.xst" -ofn "C:/Users/49530/Desktop/ISE/MyMC14495/MyMC14495.syr" 

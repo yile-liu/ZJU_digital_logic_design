@@ -1,0 +1,44 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MyAnd2b4.vf
+// /___/   /\     Timestamp : 12/12/2021 13:52:45
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/49530/Desktop/ISE/Lab12/MyAnd2b4.vf -w C:/Users/49530/Desktop/ISE/Lab12/MyAnd2b4.sch
+//Design Name: MyAnd2b4
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MyAnd2b4(A, 
+                B, 
+                S);
+
+    input [3:0] A;
+    input [3:0] B;
+   output [3:0] S;
+   
+   
+   AND2  XLXI_1 (.I0(B[0]), 
+                .I1(A[0]), 
+                .O(S[0]));
+   AND2  XLXI_2 (.I0(B[1]), 
+                .I1(A[1]), 
+                .O(S[1]));
+   AND2  XLXI_3 (.I0(B[2]), 
+                .I1(A[2]), 
+                .O(S[2]));
+   AND2  XLXI_4 (.I0(B[3]), 
+                .I1(A[3]), 
+                .O(S[3]));
+endmodule

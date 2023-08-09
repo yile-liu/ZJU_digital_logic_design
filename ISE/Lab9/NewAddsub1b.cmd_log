@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family kintex7 -verilog NewAddsub1b_drc.vf -w F:/ISE/NewLab9/NewAddsub1b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym NewAddsub1b F:/ISE/NewLab9/NewAddsub1b.sch F:/ISE/NewLab9/NewAddsub1b.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog NewAddsub1b_drc.vf -w F:/ISE/NewLab9/NewAddsub1b.sch 
+sch2sym -intstyle ise -family kintex7 -w -refsym NewAddsub1b F:/ISE/NewLab9/NewAddsub1b.sch F:/ISE/NewLab9/NewAddsub1b.sym 

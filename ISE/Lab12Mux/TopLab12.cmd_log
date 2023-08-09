@@ -1,0 +1,57 @@
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12/TopLab12.syr" 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab12Mux_ucf.ucf -p xc7k160t-ffg676-1 TopLab12.ngc TopLab12.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab12_map.ncd TopLab12.ngd TopLab12.pcf 
+par -w -intstyle ise -ol high -mt off TopLab12_map.ncd TopLab12.ncd TopLab12.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab12.twx TopLab12.ncd -o TopLab12.twr TopLab12.pcf -ucf Lab12Mux_ucf.ucf 
+bitgen -intstyle ise -f TopLab12.ut TopLab12.ncd 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab12Mux_ucf.ucf -p xc7k160t-ffg676-1 TopLab12.ngc TopLab12.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab12_map.ncd TopLab12.ngd TopLab12.pcf 
+par -w -intstyle ise -ol high -mt off TopLab12_map.ncd TopLab12.ncd TopLab12.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab12.twx TopLab12.ncd -o TopLab12.twr TopLab12.pcf -ucf Lab12Mux_ucf.ucf 
+bitgen -intstyle ise -f TopLab12.ut TopLab12.ncd 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab12Mux_ucf.ucf -p xc7k160t-ffg676-1 TopLab12.ngc TopLab12.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab12_map.ncd TopLab12.ngd TopLab12.pcf 
+par -w -intstyle ise -ol high -mt off TopLab12_map.ncd TopLab12.ncd TopLab12.pcf 
+bitgen -intstyle ise -f TopLab12.ut TopLab12.ncd 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab12Mux_ucf.ucf -p xc7k160t-ffg676-1 TopLab12.ngc TopLab12.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab12_map.ncd TopLab12.ngd TopLab12.pcf 
+par -w -intstyle ise -ol high -mt off TopLab12_map.ncd TopLab12.ncd TopLab12.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab12.twx TopLab12.ncd -o TopLab12.twr TopLab12.pcf -ucf Lab12Mux_ucf.ucf 
+bitgen -intstyle ise -f TopLab12.ut TopLab12.ncd 
+xst -intstyle ise -ifn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.xst" -ofn "C:/Users/49530/Desktop/ISE/Lab12Mux/TopLab12.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab12Mux_ucf.ucf -p xc7k160t-ffg676-1 TopLab12.ngc TopLab12.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab12_map.ncd TopLab12.ngd TopLab12.pcf 
+par -w -intstyle ise -ol high -mt off TopLab12_map.ncd TopLab12.ncd TopLab12.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab12.twx TopLab12.ncd -o TopLab12.twr TopLab12.pcf -ucf Lab12Mux_ucf.ucf 
+bitgen -intstyle ise -f TopLab12.ut TopLab12.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab12Mux_ucf.ucf -p xc7k160t-ffg676-1 TopLab12.ngc TopLab12.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TopLab12_map.ncd TopLab12.ngd TopLab12.pcf 
+par -w -intstyle ise -ol high -mt off TopLab12_map.ncd TopLab12.ncd TopLab12.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml TopLab12.twx TopLab12.ncd -o TopLab12.twr TopLab12.pcf -ucf Lab12Mux_ucf.ucf 
+bitgen -intstyle ise -f TopLab12.ut TopLab12.ncd 
